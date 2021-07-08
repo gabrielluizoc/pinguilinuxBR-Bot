@@ -6,7 +6,7 @@ include './config.php';
 
 $config = new \Config\Telegram();
 
-$file = file_get_contents('./env-example.json');
+$file = file_get_contents('./env.json');
 
 $config->configByJson($file);
 
